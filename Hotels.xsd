@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<schema
+	targetNamespace="http://venus.sod.asu.edu/WSRepository/xml"
+	xmlns="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified" attributeFormDefault ="unqualified"
+ >
+	
+	<element name="Hotels">
+		<complexType>
+			<sequence>
+				
+				<element name="Hotel" maxOccurs="unbounded">
+					<complexType>
+						
+						<sequence>
+							<element name="Name" type="string" minOccurs="1" maxOccurs="1"/>
+							<element name="Phone" type="string" minOccurs="1" maxOccurs="unbounded"/>
+							<element name="Address" minOccurs="1" maxOccurs="1">
+								<complexType>
+									<sequence>
+										<element name="Number" type="string" minOccurs="1" maxOccurs="1"/>
+										<element name="Street" type="string" minOccurs="1" maxOccurs="1"/>
+										<element name="City" type="string" minOccurs="1" maxOccurs="1"/>
+										<element name="State" type="string" minOccurs="1" maxOccurs="1"/>
+										<element name="Zip" type="string" minOccurs="1" maxOccurs="1"/>
+									</sequence>
+									<attribute name="NearestAirport" type="string" use="required"/>
+								</complexType>
+							</element>
+						</sequence>
+
+						<attribute name="rating" type="decimal" use="optional"/>
+						
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>
