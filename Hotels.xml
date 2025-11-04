@@ -3,7 +3,7 @@
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xsi:schemaLocation="http://venus.sod.asu.edu/WSRepository/xml Hotels.xsd"
 >
-	<Hotel rating ="4.2">
+	<Hotel Rating ="4.2">
 		<Name>Westin</Name>
 		<Phone>123-456-7890</Phone>
 		<Phone>098-654-3211</Phone>
@@ -16,7 +16,7 @@
 			<Zip>00001</Zip>
 		</Address>
 	</Hotel>
-	<Hotel rating ="3.4">
+	<Hotel Rating ="3.4">
 		<Name>Best Western</Name>
 		<Phone>BW-Number</Phone>
 		<Address NearestAirport="BW-Airport">
