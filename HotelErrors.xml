@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Hotel  xmlns="http://venus.sod.asu.edu/WSRepository/xml" <!-- (1) root name error -->
+<Hotel  xmlns="http://venus.sod.asu.edu/WSRepository/xml"
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xsi:schemaLocation="http://venus.sod.asu.edu/WSRepository/xml Hotels.xsd"
 >
 	<Hotel Rating ="4.2">
 		<Name>Westin</Name>
-		<!-- (3) missing phone element -->
-		<Address> <!-- (2) missing NearestAirport="Sky Harbor" -->
+
+		<Address>
 			<Number>11</Number>
 			<Street>E 7th Street</Street>
 			<City>Tempe</City>
 			<State>AZ</State>
 			<Zip>00001</Zip>
-		<!-- (4) address element has no closing tag -->
+
 	</Hotel>
 	<Hotel Rating ="3.4">
 		<Name>Best Western</Name>
-		<Name>Bester Western</Name> <!-- (5) two names provided for hotel -->
+		<Name>Bester Western</Name>
 		<Phone>BW-Number</Phone>
 		<Address NearestAirport="BW-Airport">
 			<Number>11</Number>
