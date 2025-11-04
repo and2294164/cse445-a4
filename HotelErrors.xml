@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Hotel  
-	targetNamespace="http://venus.sod.asu.edu/WSRepository/xml"
-	xmlns="http://www.w3.org/2001/XMLSchema"
-	schemaLocation="http://venus.sod.asu.edu/WSRepository/xml HotelErrors.xsd"
+	xmlns="http://venus.sod.asu.edu/WSRepository/xml"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+	xsischemaLocation="http://venus.sod.asu.edu/WSRepository/xml Hotels.xsd"
 >
 	<Hotel Rating ="4.2">
 		<Name>Westin</Name>
