@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Hotel  xmlns="http://venus.sod.asu.edu/WSRepository/xml" <!-- (1) root name error -->
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xsi:schemaLocation="http://venus.sod.asu.edu/WSRepository/xml Hotels.xsd"
@@ -35,6 +35,83 @@
 			<City>MH-City</City>
 			<State>MH-State</State>
 			<Zip>00003</Zip>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>My2 Hotel</Name>
+		<Phone>MH-Number2</Phone>
+		<Address NearestAirport="MH-Airport2">
+			<Number>112</Number>
+			<Street>MH Street2</Street>
+			<City>MH-City2</City>
+			<State>MH-State2</State>
+			<Zip>00005</Zip>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>My Hotel3</Name>
+		<Phone>MH-Number3</Phone>
+		<Address NearestAirport="MH-Airport3">
+			<Number>113</Number>
+			<Street>MH3 Street</Street>
+			<City>MH-City3</City>
+			<State>MH-State3</State>
+			<Zip>00006</Zip>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>My Hotel4</Name>
+		<Phone>MH-Number4</Phone>
+		<Address NearestAirport="MH-Airport4">
+			<Number>114</Number>
+			<Street>MH Street4</Street>
+			<City>MH-City4</City>
+			<State>MH-State4</State>
+			<Zip>00007</Zip>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>My Hotel5</Name>
+		<Phone>MH-Number5</Phone>
+		<Address NearestAirport="MH-Airport5">
+			<Number>115</Number>
+			<Street>MH Street5</Street>
+			<City>MH-City5</City>
+			<State>MH-State5</State>
+			<Zip>00007</Zip>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>My Hotel6</Name>
+		<Phone>MH-Number6</Phone>
+		<Address NearestAirport="MH-Airport6">
+			<Number>116</Number>
+			<Street>MH Street6</Street>
+			<City>MH-City6</City>
+			<State>MH-State6</State>
+			<Zip>00008</Zip>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>My Hotel7</Name>
+		<Phone>MH-Number7</Phone>
+		<Address NearestAirport="MH-Airport7">
+			<Number>117</Number>
+			<Street>MH Street7</Street>
+			<City>MH-City7</City>
+			<State>MH-State7</State>
+			<Zip>00009</Zip>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>My Hotel8</Name>
+		<Phone>MH-Number8</Phone>
+		<Address NearestAirport="MH-Airport8">
+			<Number>118</Number>
+			<Street>MH Street8</Street>
+			<City>MH-City8</City>
+			<State>MH-State8</State>
+			<Zip>00010</Zip>
 		</Address>
 	</Hotel>
 </Hotels>
