@@ -3,7 +3,7 @@
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xsi:schemaLocation="http://venus.sod.asu.edu/WSRepository/xml Hotels.xsd"
 >
-	<Hotel rating ="4.2">
+	<Hotel Rating ="4.2">
 		<Name>Westin</Name>
 		<!-- (3) missing phone element -->
 		<Address> <!-- (2) missing NearestAirport="Sky Harbor" -->
@@ -14,7 +14,7 @@
 			<Zip>00001</Zip>
 		<!-- (4) address element has no closing tag -->
 	</Hotel>
-	<Hotel rating ="3.4">
+	<Hotel Rating ="3.4">
 		<Name>Best Western</Name>
 		<Name>Bester Western</Name> <!-- (5) two names provided for hotel -->
 		<Phone>BW-Number</Phone>
